@@ -1,0 +1,5 @@
+                       ┌──► [Tenant: Alpha | Region: US-East] ──► (Healthy)
+                       │
+Incoming Request ──────┼──► [Tenant: Beta  | Region: EU-West] ──► (Tripped / Isolated)
+                       │
+                       └──► [Tenant: Gamma | Region: US-East] ──► (Healthy)
