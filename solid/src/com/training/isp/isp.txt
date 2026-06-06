@@ -1,0 +1,6 @@
+Interface Segregation Principle (ISP)
+"Clients should not be forced to depend on methods they do not use."
+
+It is much better to have many small, specific interfaces than one massive, generic interface.
+ Large interfaces force implementing classes to write
+"dummy code" or throw UnsupportedOperationException for methods they don't need.

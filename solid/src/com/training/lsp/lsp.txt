@@ -1,0 +1,4 @@
+ Liskov Substitution Principle (LSP)"Objects of a superclass should be replaceable with objects of its
+ subclasses without breaking the application."If Class $B$ is a subclass of Class $A$,
+  you should be able to pass an instance of Class $B$ anywhere Class $A$ is expected, and the program should
+ still behave correctly without crashing or throwing unexpected exceptions.

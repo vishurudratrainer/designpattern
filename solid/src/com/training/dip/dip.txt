@@ -1,0 +1,6 @@
+Dependency Inversion Principle (DIP)
+"High-level modules should not depend on low-level modules. Both should depend on abstractions."
+
+This principle is all about decoupling. High-level business logic classes shouldn't directly import or instantiate low-level concrete utility classes
+(like specific database drivers or network protocols).
+Instead, they should interact through interfaces.

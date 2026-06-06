@@ -1,0 +1,6 @@
+Single Responsibility Principle (SRP)
+"A class should have one, and only one, reason to change."
+
+A class should do one thing and do it well.
+If a class has multiple responsibilities,those responsibilities become coupled.
+Changing one responsibility can accidentally break or modify the other.
