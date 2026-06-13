@@ -1,0 +1,8 @@
+Structural Patterns
+Structural patterns explain how to assemble objects and classes into larger structures
+while keeping these structures flexible and efficient.
+
+Adapter Pattern
+Allows incompatible interfaces to work together. It acts as a translator.
+
+Analogy: A power plug adapter you use when traveling from the US to Europe.

@@ -1,0 +1,10 @@
+"The product manager just ran into the room. We are launching a Smart Thermostat that adjusts temperature,
+ and a Smart Camera that streams video.
+I'm going to update our interface to support them.
+Tell me what's wrong with doing this:"
+
+
+"If I compile this right now, what happens to our perfectly working LightBulb class?"
+
+
+"How do we fix LightBulb without changing its core job?"
