@@ -1,0 +1,4 @@
+The Bridge pattern splits a monolithic concept into
+two independent parallel class hierarchies:
+ Abstraction (high-level control logic) and Implementation
+ (platform-specific operations).

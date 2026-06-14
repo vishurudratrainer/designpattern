@@ -1,4 +1,4 @@
-package com.training.structural.decorator;
+package com.training.structural.decorator.fix;
 // 1. The Component Interface
 interface Coffee {
     String getDescription();

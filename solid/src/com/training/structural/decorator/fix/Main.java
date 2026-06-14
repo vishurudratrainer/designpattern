@@ -1,4 +1,4 @@
-package com.training.structural.decorator;
+package com.training.structural.decorator.fix;
 
 public class Main {
     public static void main(String[] args) {

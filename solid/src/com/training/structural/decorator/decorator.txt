@@ -1,0 +1,5 @@
+Decorator Pattern
+Attaches new behaviors to objects dynamically without altering their structure.
+
+Analogy: Adding toppings to a base pizza. The pizza is still a pizza,
+ but it has extra cost and flavor.

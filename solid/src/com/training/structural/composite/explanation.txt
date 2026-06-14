@@ -1,0 +1,2 @@
+The Composite pattern allows you to treat individual objects
+ and groups of objects uniformly (often in a tree-like hierarchy).
