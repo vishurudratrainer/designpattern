@@ -1,0 +1,16 @@
+[ Originator ]                  [ Memento ]                  [ Caretaker ]
+ (TextEditor)                 (EditorMemento)               (HistoryManager)
+"The guy with the state"     "The locked vault"          "The locker room manager"
+   Creates & restores          Holds private data          Stores vaults in a stack
+     the snapshots.             (Cannot be read).           (Cannot look inside).
+The Originator (TextEditor): This is the active object that holds the current text.
+It is the only character that knows how to create a snapshot or read a snapshot.
+
+The Memento (EditorMemento): This is the actual snapshot.
+Think of it as a locked vault. Inside this vault is the text history,
+ but the vault has no keys or public buttons on the outside.
+
+The Caretaker (HistoryManager): This is the history timeline tracker.
+It maintains a list or a Stack of vaults.
+ Crucially, the Caretaker cannot open the vault or see what text is inside.
+ It just holds onto the boxes and hands them back when requested.
