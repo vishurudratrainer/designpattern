@@ -1,0 +1,34 @@
+🧱 1. Creation Patterns
+These patterns abstract the instantiation process. They help make a system independent of how its objects are created, composed, and represented.
+
+Singleton: Restricts a class to a single instance while providing a global access point.
+
+Factory Method: Defines an interface for object creation but defers the actual instantiation to subclasses.
+
+🏛️ 2. Structural Patterns
+These patterns use inheritance and composition
+to combine classes and objects into larger,
+more efficient structures.
+ They help ensure that if one part of a system changes,
+  the entire structure doesn't need to break.
+
+Adapter: Converts an incompatible interface into one that a client expects.
+
+Decorator: Dynamically wraps an object to add responsibilities without modifying the original class.
+
+Facade: Provides a simplified, high-level interface to a complex underlying subsystem.
+
+Composite: Organizes objects into tree structures to let clients treat individual components and groups uniformly.
+
+Bridge: Decouples an abstraction from its implementation so that both can evolve independently.
+
+Flyweight: Reduces memory usage by sharing immutable core data across vast quantities of similar objects.
+
+🧠 3. Behavioral Patterns
+These patterns are specifically concerned with communication, data loops, and routing logic between objects.
+
+Strategy: Encapsulates interchangeable algorithms inside separate classes and switches them at runtime.
+
+Template Method: Defines the structural bones of an algorithm in a base class, allowing subclasses to fill in specific steps without altering the structure.
+
+Memento: Captures and stores an object's internal state (as a snapshot) so it can be restored later without violating encapsulation boundaries
